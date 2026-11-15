@@ -559,3 +559,34 @@ header p:hover {
 }
 
 
+/* =================================
+   SELECTOR DE IDIOMAS
+================================= */
+
+nav .idioma-selector {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #38bdf8;
+    border-radius: 30px;
+    background-color: #080f1f;
+}
+
+nav .idioma-selector a {
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+nav .idioma-selector a:hover {
+    background-color: #38bdf8;
+    color: #081426;
+    transform: none;
+}
+
+nav .idioma-selector a.activo {
+    background-color: #38bdf8;
+    color: #081426;
+}
